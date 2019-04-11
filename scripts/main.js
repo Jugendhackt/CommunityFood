@@ -7,17 +7,19 @@ accessToken: 'pk.eyJ1IjoiZWxpc2FiZXRoc2NoaWVsZSIsImEiOiJjamdpMnFpcXowaWJwMnFwams
 }).addTo(mymap);
 
 L.marker([22.54826, 88.35063]).addTo(mymap);
-L.marker([22.55826, 88.35063]).addTo(mymap);
-L.marker([22.54826, 88.35063]).addTo(mymap);
-L.marker([22.54826, 88.35063]).addTo(mymap);
-L.marker([22.54826, 88.35063]).addTo(mymap);
-L.marker([22.54826, 88.35063]).addTo(mymap);
+L.marker([generateX(), generateY()]).addTo(mymap);
+L.marker([generateX(), generateY()]).addTo(mymap);
+L.marker([generateX(), generateY()]).addTo(mymap);
+L.marker([generateX(), generateY()]).addTo(mymap);
+L.marker([generateX(), generateY()]).addTo(mymap);
+
 
 
 function generateX(){
-	
+	console.log(22.54826 + Math.random() * 0.06 - 0.03);
+	return (22.54826 + Math.random() * 0.06 - 0.03);
 }
 
 function generateY(){
-	
+	return (88.35063 + Math.random() * 0.06 - 0.03);
 }
