@@ -1,1 +1,15 @@
-#mapid {height: 200px;}
+#mapid {
+	height: 600px;
+	width: 80%;
+	align: center;
+	border: 10px solid #F9F9F9;
+	border-radius: 5px;
+}
+
+body {
+	background-color: #222222;
+}
+
+h1 {
+	color: #DDDDDD;
+}
