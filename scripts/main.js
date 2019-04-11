@@ -5,3 +5,19 @@ maxZoom: 18,
 id: 'mapbox.streets',
 accessToken: 'pk.eyJ1IjoiZWxpc2FiZXRoc2NoaWVsZSIsImEiOiJjamdpMnFpcXowaWJwMnFwams4aWk5YXl3In0.IuvGOgBuRE6_BMIkhE7Okg'
 }).addTo(mymap);
+
+L.marker([22.54826, 88.35063]).addTo(mymap);
+L.marker([22.55826, 88.35063]).addTo(mymap);
+L.marker([22.54826, 88.35063]).addTo(mymap);
+L.marker([22.54826, 88.35063]).addTo(mymap);
+L.marker([22.54826, 88.35063]).addTo(mymap);
+L.marker([22.54826, 88.35063]).addTo(mymap);
+
+
+function generateX(){
+	
+}
+
+function generateY(){
+	
+}
